@@ -1,0 +1,26 @@
+/*Used for index.html styling and positioning*/
+
+.title_text_and_picture{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.picture_and_quote{
+    text-align: center;
+}
+
+.title_text{
+    font-size: 70px;
+    text-align: right;
+}
+
+.sub_text{
+    text-align: right;
+}
+
+.left_text{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between ;
+}

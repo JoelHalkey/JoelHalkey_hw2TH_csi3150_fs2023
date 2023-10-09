@@ -7,6 +7,7 @@
   <title>Joel Halkey's Portfolio - Home</title>
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="./css/home.css">
 </head>
 
 <body>
@@ -33,34 +34,45 @@
     </ul>
   </nav>
 
-  <header>
-    <h1>Joel Halkey<br>Portfolio</h1>
-    <img src="img/joel_headshot.png" alt="Joel Halkey's Headshot Photo" width="114" height="150" />
-    <blockquote>
-      Pride is not the opposite of shame, but its source. <br />
-      humility is the only antidote to shame. <br />
-      -Uncle Iroh
-    </blockquote>
-  </header>
+
   <main>
-    <section id="about">
-      <hr />
-      <h2>About</h2>
-      <p id="about" width="50">
-        My name is Joel Halkey, and I was born and raised in Hazel Park, MI.
-        <br />
-        I'm currently a senior student at Oakland University with a major in
-        <br />
-        Computer Science. I'm also currently working with OU's very own
-        <br />
-        Center for Multicultural Initiatives (CMI). If you'd like to know more
-        <br />
-        about me, refer to my Resume and Fun Facts pages.
-      </p>
-      <hr />
-    </section>
+    <div class="title_text_and_picture">
+      <div class="picture_and_quote">
+        <img src="img/joel_headshot.png" alt="Joel Halkey's Headshot Photo" width="556" height="650" />
+        <p>
+          Pride is not the opposite of shame, but its source. <br />
+          humility is the only antidote to shame. <br />
+          -Uncle Iroh
+        </p>
+      </div>
+      <div class="left_text">
+        <div class="title_and_intro_text">
+          <h1 class="title_text">Joel Halkey<br>Portfolio</h1>
+          <p class="sub_text">Welcome to my portfolio, learn all about me.</p>
+        </div>
+        <section class="about">
+          <hr />
+          <h2>About</h2>
+          <p width="50">
+            My name is Joel Halkey, and I was born and raised in Hazel Park, MI.
+            <br />
+            I'm currently a senior student at Oakland University with a major in
+            <br />
+            Computer Science. I'm also currently working with OU's very own
+            <br />
+            Center for Multicultural Initiatives (CMI). If you'd like to know more
+            <br />
+            about me, refer to my Resume and Fun Facts pages.
+          </p>
+        </section>
+      </div>
+
+    </div>
+
+
 
     <section>
+      <hr>
       <h2>Progress to Degree</h2>
       <label for="progressToDegree">Degree progress:</label>
       <progress id="progressToDegree" value="110" max="128">
