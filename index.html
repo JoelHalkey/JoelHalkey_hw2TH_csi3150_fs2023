@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joel Halkey's Portfolio - Home</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/stylesheet.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <a href="./index.html" class="navOption">Home</a>
-        <a href="./html/resume.html" class="navOption">Resume</a>
-        <a href="./html/funfacts.html" class="navOption">Fun Facts</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel Halkey's Portfolio - Home</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
 
-    <header>
-      <h1>Joel Halkey - Portfolio</h1>
-      <img
-        src="img/joel_headshot.png"
-        alt="Joel Halkey's Headshot Photo"
-        width="114"
-        height="150"
-      />
-      <blockquote>
-        Pride is not the opposite of shame, but its source. <br />
-        humility is the only antidote to shame. <br />
-        -Uncle Iroh
-      </blockquote>
-    </header>
-    <main>
-      <section id="about">
-        <hr />
-        <label for="about"><h2>About</h2></label>
-        <p id="about" width="50">
-          My name is Joel Halkey, and I was born and raised in Hazel Park, MI.
-          <br />
-          I'm currently a senior student at Oakland University with a major in
-          <br />
-          Computer Science. I'm also currently working with OU's very own
-          <br />
-          Center for Multicultural Initiatives (CMI). If you'd like to know more
-          <br />
-          about me, refer to my Resume and Fun Facts pages.
-        </p>
-        <hr />
-      </section>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <!--hamburger menu icon and checkbox hax-->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">
+        <!--Symbol for hamburger icon-->
+        &#9776;
+      </label>
 
-      <section>
-        <h2>Progress to Degree</h2>
-        <label for="progressToDegree">Degree progress:</label>
-        <progress id="progressToDegree" value="110" max="128">
-          110 out of 128 credits
-        </progress>
-      </section>
-    </main>
-    <footer>
+      <div class="menu">
+        <li>
+          <a href="./index.html" class="navOption">Home</a>
+        </li>
+        <li>
+          <a href="./html/resume.html" class="navOption">Resume</a>
+        </li>
+        <li>
+          <a href="./html/funfacts.html" class="navOption">Fun Facts</a>
+        </li>
+      </div>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Joel Halkey<br>Portfolio</h1>
+    <img src="img/joel_headshot.png" alt="Joel Halkey's Headshot Photo" width="114" height="150" />
+    <blockquote>
+      Pride is not the opposite of shame, but its source. <br />
+      humility is the only antidote to shame. <br />
+      -Uncle Iroh
+    </blockquote>
+  </header>
+  <main>
+    <section id="about">
       <hr />
-      ©Joel Halkey. CSE, Oakland University, 2023.
-      <br />
-      <a href="mailto:joelhalkey@oakland.edu">joelhalkey@oakland.edu</a>
-      <!--I'm not much of a social media person, so I don't have any to share-->
+      <h2>About</h2>
+      <p id="about" width="50">
+        My name is Joel Halkey, and I was born and raised in Hazel Park, MI.
+        <br />
+        I'm currently a senior student at Oakland University with a major in
+        <br />
+        Computer Science. I'm also currently working with OU's very own
+        <br />
+        Center for Multicultural Initiatives (CMI). If you'd like to know more
+        <br />
+        about me, refer to my Resume and Fun Facts pages.
+      </p>
       <hr />
-    </footer>
-  </body>
+    </section>
+
+    <section>
+      <h2>Progress to Degree</h2>
+      <label for="progressToDegree">Degree progress:</label>
+      <progress id="progressToDegree" value="110" max="128">
+        110 out of 128 credits
+      </progress>
+    </section>
+  </main>
+  <footer>
+    <hr />
+    ©Joel Halkey. CSE, Oakland University, 2023.
+    <br />
+    <a href="mailto:joelhalkey@oakland.edu">joelhalkey@oakland.edu</a>
+    <!--I'm not much of a social media person, so I don't have any to share-->
+    <hr />
+  </footer>
+</body>
+
 </html>
