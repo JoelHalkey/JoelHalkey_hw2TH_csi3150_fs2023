@@ -7,3 +7,7 @@ Note:
     I didn't have time to make the other pages look nicer, because I would 
     need a lot more time to finish those. 
     They all have the navbar accessibility but that's about it.
+
+    Also, depending on what monitor you have, you may have to use the 
+    developer tools to make the viewport small enough to make the dropdown
+    menu go into effect.
